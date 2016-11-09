@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 	int n;
-	cout<<"Enter a number the is n^2. i.e. 4, 9, 16, 25, ect.\n";
+	cout<<"Enter a number.\n";
 	cin>> n;
 	vector<vector<int>> a(n,vector<int>(n));
 	srand(time(0));
