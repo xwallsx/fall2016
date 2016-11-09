@@ -17,6 +17,11 @@ int main(){
 		for(int a_j=0;a_j<n;a_j++)
 		{
 			a[a_i][a_j]= rand() % 10+1;
+			cout<<a[a_i][a_j]<< ' ';
+			if(a_j == (n-1))
+			{
+				cout << endl;
+			}
 		}
 
 	}
