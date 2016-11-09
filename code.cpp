@@ -6,7 +6,14 @@
 #include <time.h>
 using namespace std;
 
-/*This code does the diagonal difference of a NxN block. You first enter a number to create this n^2 block, it then creates this with random numbers from 1 to 10 and it bring it to the screen so the user can see. It then run from the top left hand corner to the bottom right counting each number to the sum of sum[0] and it does the same, but from the top right corner to the bottom left and stores the sum to sum[1]. It then takes the absolute some of the differnce between the two.*/
+/*This code does the diagonal difference of a NxN block. You first
+ * enter a number to create this n^2 block, it then creates this
+ * with random numbers from 1 to 10 and it bring it to the screen
+ * so the user can see. It then run from the top left hand corner
+ * to the bottom right counting each number to the sum of sum[0] 
+ * and it does the same, but from the top right corner to the bottom
+ * left and stores the sum to sum[1]. It then takes the absolute
+ * some of the differnce between the two.*/
 
 int main(){
 
