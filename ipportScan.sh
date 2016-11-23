@@ -1,3 +1,8 @@
+#This script scans a network, e.g. 192.168.25.xxx
+#and stores only those IP addresses that have the telnet, rlogin, samba or nfs service running.
+#
+#This is a good practice program if you are running Kali and Metasploitable virtual machines.
+	
 #!/bin/bash
 network=192.168.50.
 for host in {1..254}; do
