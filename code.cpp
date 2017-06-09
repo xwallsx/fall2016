@@ -30,7 +30,7 @@ using namespace std;
 
 int main() {
 	int n;
-	cout << "Enter a number.";
+	cout << "Enter a number.\n";
 	cin >> n;
 	cout << endl;
 	vector<vector<int>> a(n, vector<int>(n));
