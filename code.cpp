@@ -1,15 +1,9 @@
 #include <cmath>
-
 #include <cstdio>
-
 #include <vector>
-
 #include <iostream>
-
 #include <algorithm>
-
 #include <time.h>
-
 
 
 using namespace std;
@@ -36,7 +30,7 @@ using namespace std;
 
 int main() {
 	int n;
-	cout << "Enter a number.\n";
+	cout << "Enter a number.";
 	cin >> n;
 	cout << endl;
 	vector<vector<int>> a(n, vector<int>(n));
